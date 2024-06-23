@@ -2,11 +2,9 @@ import {
   faDocker,
   faJava,
   faJs,
-  faPhp,
   faPython,
   faReact,
   faGolang,
-  faVuejs,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "./common/Card";
@@ -17,10 +15,6 @@ const Skill = (props: Props) => {
   return (
     <Card title="Skill">
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-        <div className="text-center">
-          <FontAwesomeIcon icon={faPhp} className="h-10" />
-          <p>PHP</p>
-        </div>
         <div className="text-center">
           <FontAwesomeIcon icon={faPython} className="h-10" />
           <p>Python</p>
@@ -44,10 +38,6 @@ const Skill = (props: Props) => {
         <div className="text-center">
           <FontAwesomeIcon icon={faDocker} className="h-10" />
           <p>Docker</p>
-        </div>
-        <div className="text-center">
-          <FontAwesomeIcon icon={faVuejs} className="h-10" />
-          <p>Vue.js</p>
         </div>
       </div>
     </Card>
