@@ -5,7 +5,7 @@ import {
   faPhp,
   faPython,
   faReact,
-  faRust,
+  faGolang,
   faVuejs,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -26,8 +26,8 @@ const Skill = (props: Props) => {
           <p>Python</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faRust} className="h-10" />
-          <p>Rust</p>
+          <FontAwesomeIcon icon={faGolang} className="h-10" />
+          <p>Go</p>
         </div>
         <div className="text-center">
           <FontAwesomeIcon icon={faReact} className="h-10" />

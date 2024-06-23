@@ -16,20 +16,20 @@ const Profile = (props: Props) => {
         />
       </div>
       <div className="text-center">
-        <h1 className="text-2xl font-bold">John Farmer</h1>
-        <p className="text-base">Software Engineer</p>
+        <h1 className="text-2xl font-bold">Surapat Saetan</h1>
+        <p className="text-base">Computer Engineer and Artificial Intelligence</p>
       </div>
 
       <div className="py-10 text-center ">" May the force be with you "</div>
       <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md">
         <p>
-          <b>Age:</b> 26
+          <b>Age:</b> 20
         </p>
         <p>
           <b>Status:</b> Single
         </p>
         <p>
-          <b>Location:</b> Bangkok
+          <b>Location:</b> Nakhonsithammarat
         </p>
       </div>
     </div>
